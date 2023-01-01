@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DA_Connect</string>
+    <string name="home">HOME</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="add">ADD</string>
+    <string name="search">SEARCH</string>
+    <string name="profile">PROFILE</string>
+    <string name="bio">Hey!!! I am using my Social Media</string>
+</resources>

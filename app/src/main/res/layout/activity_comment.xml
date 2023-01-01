@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comment_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_above="@id/commentsendlayout"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"></androidx.recyclerview.widget.RecyclerView>
+<RelativeLayout
+    android:layout_alignParentBottom="true"
+    android:id="@+id/commentsendlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/sendcomment"
+        android:hint="Comment"
+        android:id="@+id/commenttype"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/sendcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/primary"
+        android:background="@drawable/edittext_background"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Send"></TextView>
+</RelativeLayout>
+</RelativeLayout>
